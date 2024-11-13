@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             <div className='px-4 md:px-0'>
-                <button className='md:bg-black text-white py-2 px-3 md:w-[150px] w-[400px] bg-green-400 rounded-md'>Search</button>
+                <button className='md:bg-red-500 text-white py-2 px-3 md:w-[150px] w-[400px] bg-green-400 rounded-md'>Search</button>
             </div>
             </div>
 
