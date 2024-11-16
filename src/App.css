@@ -10,3 +10,7 @@
 .up{
     background-color: rgb(212, 195, 174);
 }
+.Buy:hover{
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
