@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { TbCurrencyNaira } from "react-icons/tb";
+import { NavLink } from 'react-router-dom';
+
 
 export default function Rent() {
   return (
@@ -22,6 +24,11 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>14,000,000</p>
                 </div>
+                  
+                  <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
+
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -252,6 +259,9 @@ export default function Rent() {
 
 
         </div>
+
+        
+        
     </section>
     
 

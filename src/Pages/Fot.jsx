@@ -10,7 +10,7 @@ export default function Fot() {
     <footer className='py-10 md:px-20' >
         <h1 className='text-center mb-5 font-extrabold text-5xl'>Q-esate</h1>
 
-        <div className='flex justify-between md:px-20 px-5 mb-5'>
+        <div className='flex font-thin justify-between md:px-20 px-5 mb-5'>
 
             
                

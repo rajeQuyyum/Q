@@ -12,6 +12,8 @@ import Rent from './Pages/Rent'
 import Fot from './Pages/Fot'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
+import Det from './Pages/Det'
+
 
 
 
@@ -32,6 +34,7 @@ function App() {
       <Route path='buy' element={<Buy />} />
       <Route path='sell' element={<Sell />} />
       <Route path='rent' element={<Rent />} />
+      <Route path='det' element={<Det />} />
     </Routes>
     <Fot />
   

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { TbCurrencyNaira } from "react-icons/tb";
 
+
 export default function Buy() {
   return (
     
@@ -210,8 +211,11 @@ export default function Buy() {
 
             
 
+            
+
 
         </div>
+
     </section>
   )
 }

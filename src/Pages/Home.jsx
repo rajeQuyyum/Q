@@ -42,6 +42,8 @@ export default function Home() {
         <li><NavLink className="text-white bg-red-500 px-3 py-2 rounded-md w-60" to="buy">Buy</NavLink></li>
         <li><NavLink className="text-white bg-red-500 px-3 py-2 rounded-md" to="sell">Sell</NavLink></li>
         <li><NavLink className="text-white bg-red-500 px-3 py-2 rounded-md" to="rent">Rent</NavLink></li>
+        
+        
         </div>
 
 

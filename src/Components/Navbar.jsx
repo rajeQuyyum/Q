@@ -23,7 +23,7 @@ export default function Navbar() {
             
         </ul>
         <div className='px-10'>
-        <input className='w-[200px] hidden lg:block rounded-full h-[40px] pl-2 bg-transparent text-black  border border-red-500' type="text" placeholder='Search' />
+        <input className='w-[200px] hidden lg:block rounded-full h-[40px] pl-2 bg-transparent text-black  border border-gray-500' type="text" placeholder='Search' />
         </div>
 
         <i className='md:hidden text-4xl' onClick={() => setDisplay(prev => !prev)}><FaBars /></i>
