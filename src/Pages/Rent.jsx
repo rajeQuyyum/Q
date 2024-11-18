@@ -2,10 +2,13 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { TbCurrencyNaira } from "react-icons/tb";
 import { NavLink } from 'react-router-dom';
+import Det from './Det';
 
 
 export default function Rent() {
   return (
+
+    
     <section className='py-5 text-center'>
 
         <h1 className='font-bold text-3xl mb-5 py-5'>Rent Options</h1>
@@ -44,6 +47,11 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>16,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
+
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -59,6 +67,10 @@ export default function Rent() {
                 <div className='flex items-center'>
                 <TbCurrencyNaira />
                 <p className='font-thin'>5,000,000</p>
+                </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
                 </div>
             </div>
 
@@ -76,6 +88,11 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>14,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
+                
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -91,6 +108,10 @@ export default function Rent() {
                 <div className='flex items-center'>
                 <TbCurrencyNaira />
                 <p className='font-thin'>12,000,000</p>
+                </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
                 </div>
             </div>
 
@@ -108,6 +129,10 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>12,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -124,6 +149,11 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>10,000,000</p>
                 </div>
+                 
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
+                
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -140,6 +170,10 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>11,500,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -155,6 +189,10 @@ export default function Rent() {
                 <div className='flex items-center'>
                 <TbCurrencyNaira />
                 <p className='font-thin'>5,500,000</p>
+                </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
                 </div>
             </div>
 
@@ -173,6 +211,10 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>6,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -188,6 +230,10 @@ export default function Rent() {
                 <div className='flex items-center'>
                 <TbCurrencyNaira />
                 <p className='font-thin'>15,000,000</p>
+                </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
                 </div>
             </div>
 
@@ -205,6 +251,10 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>11,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -220,6 +270,10 @@ export default function Rent() {
                 <div className='flex items-center'>
                 <TbCurrencyNaira />
                 <p className='font-thin'>3,500,000</p>
+                </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
                 </div>
             </div>
 
@@ -237,6 +291,10 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>7,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
             </div>
 
             <div className='bg-slate-100 md:w-[260px] Buy md:mx-0 mx-2  w-full border border-gray-400 rounded-md flex flex-col gap-2 items-center'>
@@ -253,6 +311,10 @@ export default function Rent() {
                 <TbCurrencyNaira />
                 <p className='font-thin'>8,000,000</p>
                 </div>
+
+                <div className='list-none mb-2'>
+                <li><NavLink className=" text-white bg-red-500 py-1 px-2 " to="/det">Details</NavLink></li>
+                </div>
             </div>
 
             
@@ -260,9 +322,17 @@ export default function Rent() {
 
         </div>
 
+
+
         
+
+        <div className='hidden'>
+        <Det />
+        </div>
         
     </section>
+
+    
     
 
     

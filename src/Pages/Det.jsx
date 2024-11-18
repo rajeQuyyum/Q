@@ -1,4 +1,6 @@
 import React from 'react'
+import vid2 from '../assets/vid2.mp4'
+import vid from '../assets/vid.mp4'
 
 export default function Det() {
   return (
@@ -53,6 +55,23 @@ export default function Det() {
                 <img className=' md:w-[580px] w-full h-[380px]' src="https://cdn.habitusliving.com/wp-content/uploads/2024/02/1.bathroomfeat.jpg" alt="" />
                 </div>
             </div>
+
+            <div className='lg:w-[600px] md:w-[390px] Buy  flex flex-col items-center bg-slate-300 md:px-2 px-3 md:mx-0 mx-2'>
+
+             <img src={vid} alt="" />
+            </div>
+
+
+
+            <div className='lg:w-[600px] md:w-[390px] Buy  flex flex-col items-center bg-slate-300 md:px-2 px-3 md:mx-0 mx-2'>
+                <img src={vid2} alt="" />
+
+            </div>
+
+              
+              
+
+            
         </div>
     </section>
   )
