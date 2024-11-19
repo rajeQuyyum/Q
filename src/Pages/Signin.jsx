@@ -31,8 +31,7 @@ export default function Signin() {
 
 
       <div className='text-center'>
-    <h1 className='text-black text-lg'><span className='text-lg font-extralight text-gray-400'>Don't have an account? </span></h1>
-    <l1><NavLink className='text-black text-lg'  to="/signup">sign up</NavLink></l1>
+    <h1 className='text-black text-lg'><span className='text-lg font-extralight text-gray-400'>Don't have an account? </span><l1><NavLink className='text-black text-lg'  to="/signup">sign up</NavLink></l1></h1>
     </div>
 
     <div className='text-center'>
