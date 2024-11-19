@@ -60,7 +60,7 @@ export default function Det() {
             <h1 className='mb-2 text-2xl font-normal'>Clips</h1>
 
             <div className='mb-3'>
-            <img className='md:w-[580px] w-full h-[380px]' src={vid} alt="" />
+            <video className='md:w-[580px] w-full h-[380px]'controls src={vid}></video>
             </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function Det() {
              <h1 className='mb-2 text-2xl font-normal'>Clips</h1>
 
              <div className='mb-3'>
-             <video className='md:w-[580px] w-full h-[380px]' autoPlay controls src={vid2}></video>
+             <video className='md:w-[580px] w-full h-[380px]'  controls src={vid2}></video>
              </div>
                 
 
