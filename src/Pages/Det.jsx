@@ -76,6 +76,11 @@ export default function Det() {
 
             </div>
 
+             <div className=''>
+             <label className='block text-2xl font-normal' htmlFor="file">Upload</label>
+             <input className='w-[500px]' type="file" />
+             </div>
+
               
               
 
