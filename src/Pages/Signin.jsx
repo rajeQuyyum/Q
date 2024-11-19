@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 export default function Signin() {
   return (
@@ -25,12 +26,13 @@ export default function Signin() {
     </div>
 
     
-    <button className='block m-auto bg-blue-900 md:w-[500px] w-[100px] h-12 rounded-md text-white mb-3'>Login</button>
+    <button className='block m-auto bg-blue-900 w-[150px] h-12 rounded-md text-white mb-3'>Login</button>
     
 
 
       <div className='text-center'>
-    <h1 className='text-black text-lg'><span className='text-lg font-extralight text-gray-400'>Don't have an account? </span>   Sign Up </h1>
+    <h1 className='text-black text-lg'><span className='text-lg font-extralight text-gray-400'>Don't have an account? </span></h1>
+    <l1><NavLink className='text-black text-lg'  to="/signup">sign up</NavLink></l1>
     </div>
 
     <div className='text-center'>
