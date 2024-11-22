@@ -16,7 +16,7 @@ export default function Home() {
         <div className='flex flex-col md:flex-row gap-5 justify-center mb-5'>
         <div className='px-4 md:px-0'>
         <label className='text-2xl  text-white  px-2' htmlFor="location">Location</label>
-        <select className='md:w-[250px] w-[400px]   h-10 border border-transparent' name="" id="">
+        <select className='md:w-[250px] w-full   h-10 border border-transparent' name="" id="">
                 <option value="">Abuja</option>
                 <option value="">Lagos</option>
                 <option value="">Akure</option>
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             <div className='px-4 md:px-0'>
-            <li><NavLink to="buy"><button className='md:bg-red-500 text-white py-2 px-3 md:w-[150px] w-[400px] bg-green-400 rounded-md'>Search</button></NavLink></li>  
+            <li><NavLink to="buy"><button className='md:bg-red-500 text-white py-2 px-3 md:w-[150px] w-full bg-green-400 rounded-md'>Search</button></NavLink></li>  
             </div>
             </div>
 
